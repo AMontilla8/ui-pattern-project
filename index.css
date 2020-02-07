@@ -19,10 +19,14 @@
     height:60px;
     background-color:#E6E6FA;
 }
-body{
+
+.body{
     margin:0px;
     padding:0px;
+    min-height: 100vh;
+	background-color: #fafafa;
 }
+
 
 .logo{
     color:#663399;
@@ -41,6 +45,7 @@ body{
 	margin: 0 auto;
 	padding: 0 2rem 2rem;
 }
+
 .heading {
     display: block;
     font-family: "Montserrat", Arial, sans-serif;
@@ -57,6 +62,7 @@ body{
 	flex-wrap: wrap;
 	margin: -1rem -1rem;
 }
+
 .gallery-item {
 	flex: 1 0 24rem;
 	margin: 1rem;
@@ -74,8 +80,4 @@ body{
 
 .gallery-image:hover {
 	transform: scale(1.15);
-}
-body {
-	min-height: 100vh;
-	background-color: #fafafa;
 }
